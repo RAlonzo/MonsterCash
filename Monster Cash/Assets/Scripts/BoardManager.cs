@@ -45,11 +45,12 @@ public class BoardManager : MonoBehaviour {
 	{
 		boardHolder = new GameObject ("Board").transform;
 
-		int x = 1;
+		int x = 0;
 
-		for (int y = -1; y < rows + 1; y++)
+		for (int y = 0; y < rows; y++)
 		{
-			GameObject toInstantiate = zombieTiles[y +1];
+			//Choose Zombie from array of zombies
+			GameObject toInstantiate = zombieTiles[y];
 
 			GameObject instance = Instantiate(toInstantiate, new Vector3 (x,y,0f), Quaternion.identity) as GameObject;
 		
@@ -85,13 +86,16 @@ public class BoardManager : MonoBehaviour {
 		}
 	}
 
-	// Use this for initialization
-	void Start () {
-	
+	public void SetupScene(int Level)
+	{
+		ZombieSetup();
+		InitialiseList();
+		LayoutObjectAtRandom(itemTiles, itemsCount.minimum, itemsCount.maximum);
+		for (int x = 0; x < rows; x++){
+			Instantiate(finishLine, new Vector3(columns - 3, x, 0f), Quaternion.identity);
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+
+
 }

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: cb780355c43070f478206e736c8a4648
-timeCreated: 1441939310
+timeCreated: 1442333795
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -64,8 +64,8 @@ TextureImporter:
         y: 227
         width: 154
         height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fig06_1
       rect:
@@ -74,8 +74,8 @@ TextureImporter:
         y: 227
         width: 154
         height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fig06_2
       rect:
@@ -84,8 +84,8 @@ TextureImporter:
         y: 227
         width: 154
         height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fig06_3
       rect:
@@ -94,8 +94,8 @@ TextureImporter:
         y: 227
         width: 154
         height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fig06_4
       rect:
@@ -104,7 +104,7 @@ TextureImporter:
         y: 13
         width: 154
         height: 214
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fig06_5
@@ -114,7 +114,7 @@ TextureImporter:
         y: 13
         width: 154
         height: 214
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fig06_6
@@ -124,7 +124,7 @@ TextureImporter:
         y: 13
         width: 154
         height: 214
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: fig06_7
@@ -134,7 +134,7 @@ TextureImporter:
         y: 13
         width: 154
         height: 214
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
