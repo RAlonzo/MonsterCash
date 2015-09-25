@@ -1,0 +1,34 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class MovingBackground : MonoBehaviour {
+
+    public GameObject background;
+    public GameObject[] zombie;
+
+    public bool raceStart;
+
+
+    // Use this for initialization
+    void Start () {
+        raceStart = false;
+    }
+
+    // Update is called once per frame
+    void Update() {
+        for (int i = 0; i < 5; i++)
+        {
+            if (zombie[i].transform.position.x > 5 && this.transform.position.x > -22.0f && raceStart != false)
+            {
+                Vector3 position = this.transform.position;
+                position.x = position.x - 0.05f;
+                this.transform.position = position;
+            }
+        }
+    }
+	  
+    public void RaceStart()
+    {
+        raceStart = true;
+    }  
+}
