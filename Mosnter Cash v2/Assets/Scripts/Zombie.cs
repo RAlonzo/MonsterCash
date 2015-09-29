@@ -15,9 +15,7 @@ public class Zombie : MonoBehaviour
     public float maxVelocity;
     public float minVelocity;
     public float distFinish;
-
-	private bool _accelerating;
-	private bool _decelerating;
+    public float myPosition;
 
     public int randomMotion;
 
@@ -49,7 +47,6 @@ public class Zombie : MonoBehaviour
         velocity = 4f;
         maxVelocity = 5.0f;
         minVelocity = 1.0f;
-		acceleration = 0.01f;
         _state = State.Moving;
         position = this.transform.position;
         distFinish = finishLine.transform.position.x - this.transform.position.x;
@@ -67,14 +64,11 @@ public class Zombie : MonoBehaviour
                 switch (_state)
                 {
                     case State.Moving:
-                        Debug.Log("Moving");
                         InMotion(randomMotion);
                         break;
                     case State.Stop:
                         break;
                 }
-                Debug.Log(acceleration);
-                Debug.Log(velocity);
             }
             yield return 0;
         }
@@ -85,39 +79,20 @@ public class Zombie : MonoBehaviour
         switch(index)
         {
             case 3:
-				Debug.Log ("DOUBLE");
-                DoubleAccelerating();
                 break;
-			case 2:	
+            case 2:
                 Accelerating();
-			    break;
+                break;
             case 1:
-                Debug.Log("Decelerate");
                 Decelerating();
                 break;
         }
     }
 
-
     private void RandomMotion()
     {
-		randomMotion = Random.Range(1, 3);
-		//for (int i = 0; i < 4; i++) {
-		//	zombiePosition[i] = zombie[i].transform.position.x - finishLine.transform.position.x;
-		//
-		//	if (zombie [i].transform.position.x > this.position.x) {
-		//		randomMotion = 3;
-		//	}
-		//	else if (zombie [i].transform.position.x < this.position.x)
-		//	{
-		//		randomMotion = 1;
-		//	}
-		//	else if(zombie [i].transform.position.x == this.position.x)
-		//	{
-		//		randomMotion = 2;
-		//	}
-		//}
-	}
+        randomMotion = Random.Range(1, 3);
+    }
 
     void Movement()
     {
@@ -125,10 +100,12 @@ public class Zombie : MonoBehaviour
         {
             velocity = deltaTime * acceleration;
         }
-		acceleration = acceleration * 0.1f;
         distance = deltaTime * velocity;
-        position.x = 0.1f + position.x + acceleration - distance;
-        this.transform.position = Vector3.Lerp(this.transform.position, new Vector3(position.x, this.transform.position.y, this.transform.position.z), 0.2f);
+        if (this.transform.position.x < distFinish)
+        {
+            position.x = position.x + distance + 0.005f;
+            this.transform.position = Vector3.Lerp(this.transform.position, new Vector3(position.x, this.transform.position.y, this.transform.position.z), 0.2f);
+        }
     }
 
     public void RaceStatrt()
@@ -139,19 +116,19 @@ public class Zombie : MonoBehaviour
 
     void Decelerating()
     {
-        acceleration = Random.Range(-1f,0f);
+        acceleration = Random.Range(-0.1f,0f);
         Movement();
     }
 
     void Accelerating()
     {
-        acceleration = Random.Range(0f, 0.2f);
+        acceleration = Random.Range(0f, 0.1f);
         Movement();
     }
 
     void DoubleAccelerating()
     {
-        acceleration = Random.Range(1f, 2f);
+        acceleration = Random.Range(0.5f, 0.8f);
         Movement();
     }
 }
