@@ -58,6 +58,8 @@ public class Zombie : MonoBehaviour
     {
         while (true)
         {
+
+
             if (raceStart != false)
             {
                 RandomMotion();
@@ -91,6 +93,7 @@ public class Zombie : MonoBehaviour
 
     private void RandomMotion()
     {
+
         randomMotion = Random.Range(1, 3);
     }
 
@@ -122,7 +125,7 @@ public class Zombie : MonoBehaviour
 
     void Accelerating()
     {
-        acceleration = Random.Range(0f, 0.1f);
+        acceleration = Random.Range(0f, 0.4f);
         Movement();
     }
 
