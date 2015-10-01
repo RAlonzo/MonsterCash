@@ -4,6 +4,9 @@ using System.Collections;
 
 public class RacerSelection : MonoBehaviour {
 
+    public GameObject iconHolder;
+    public GameObject iconEndPos;
+
     public Image[] zombieImgs;
     public Image[] zombieX;
     public Image[] holderImg;
@@ -100,9 +103,39 @@ public class RacerSelection : MonoBehaviour {
         }
     }
 
+    public void IconAnimation()
+    {
+        StartCoroutine(LerpIconsHolder());
+    }
+
+    IEnumerator LerpIconsHolder()
+    {
+        //StopAllCoroutines();
+        duration = 6f;
+        smoothness = 0.01f;
+        float progress = 0; //This float will serve as the 3rd parameter of the lerp function.
+        float increment = smoothness / duration; //The amount of change to apply.
+
+        while (progress < 1)
+        {
+            iconHolder.transform.position = Vector2.Lerp(iconHolder.transform.position,
+                                                                iconEndPos.transform.position,
+                                                                progress);
+            progress += increment;
+
+            yield return new WaitForSeconds(smoothness);
+        }
+
+        yield return true;
+    }
+
+
+
+
     IEnumerator LerpIconsIn(int index, int i)
     {
         //StopAllCoroutines();
+        float duration = 0.3f;
         float progress = 0; //This float will serve as the 3rd parameter of the lerp function.
         float increment = smoothness/duration; //The amount of change to apply.
 
@@ -122,6 +155,7 @@ public class RacerSelection : MonoBehaviour {
     IEnumerator LerpIconsOut(int index, int i)
     {
         //StopAllCoroutines();
+        float duration = 0.3f;
         float progress = 0; //This float will serve as the 3rd parameter of the lerp function.
         float increment = smoothness / duration; //The amount of change to apply.
 

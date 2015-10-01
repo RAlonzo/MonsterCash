@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: 1778e4284805a6e4884ef8968c162ea5
+timeCreated: 1443719948
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AllVehicles_animated_0
+    21300002: AllVehicles_animated_1
+    21300004: AllVehicles_animated_2
+    21300006: AllVehicles_animated_3
+    21300008: AllVehicles_animated_4
+    21300010: AllVehicles_animated_5
+    21300012: AllVehicles_animated_6
+    21300014: AllVehicles_animated_7
+    21300016: AllVehicles_animated_8
+    21300018: AllVehicles_animated_9
+    21300020: AllVehicles_animated_10
+    21300022: AllVehicles_animated_11
+    21300024: AllVehicles_animated_12
+    21300026: AllVehicles_animated_13
+    21300028: AllVehicles_animated_14
+    21300030: AllVehicles_animated_15
+    21300032: AllVehicles_animated_16
+    21300034: AllVehicles_animated_17
+    21300036: AllVehicles_animated_18
+    21300038: AllVehicles_animated_19
+    21300040: AllVehicles_animated_20
+    21300042: AllVehicles_animated_21
+    21300044: AllVehicles_animated_22
+    21300046: AllVehicles_animated_23
+    21300048: AllVehicles_animated_24
+    21300050: AllVehicles_animated_25
+    21300052: AllVehicles_animated_26
+    21300054: AllVehicles_animated_27
+    21300056: AllVehicles_animated_28
+    21300058: AllVehicles_animated_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AllVehicles_animated_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 6926
+        width: 951
+        height: 1244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_1
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 6918
+        width: 951
+        height: 1244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_2
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 6912
+        width: 952
+        height: 1242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_3
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 6896
+        width: 954
+        height: 1248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_4
+      rect:
+        serializedVersion: 2
+        x: 4258
+        y: 6890
+        width: 976
+        height: 1244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_5
+      rect:
+        serializedVersion: 2
+        x: 5306
+        y: 6898
+        width: 1108
+        height: 1231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_6
+      rect:
+        serializedVersion: 2
+        x: 6506
+        y: 6894
+        width: 1228
+        height: 1232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_7
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 5566
+        width: 1336
+        height: 1236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_8
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 5562
+        width: 1420
+        height: 1240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_9
+      rect:
+        serializedVersion: 2
+        x: 3062
+        y: 5558
+        width: 1504
+        height: 1240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_10
+      rect:
+        serializedVersion: 2
+        x: 4618
+        y: 5566
+        width: 1572
+        height: 1236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_11
+      rect:
+        serializedVersion: 2
+        x: 6210
+        y: 5570
+        width: 1592
+        height: 1232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 4270
+        width: 1548
+        height: 1232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_13
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 4278
+        width: 1452
+        height: 1240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_14
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 4162
+        width: 1316
+        height: 1294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_15
+      rect:
+        serializedVersion: 2
+        x: 4678
+        y: 4086
+        width: 1144
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_16
+      rect:
+        serializedVersion: 2
+        x: 5910
+        y: 4070
+        width: 976
+        height: 1448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_17
+      rect:
+        serializedVersion: 2
+        x: 6983
+        y: 4078
+        width: 947
+        height: 1456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2606
+        width: 951
+        height: 1408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_19
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 2678
+        width: 953
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_20
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 2746
+        width: 952
+        height: 1270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_21
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 2770
+        width: 951
+        height: 1268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_22
+      rect:
+        serializedVersion: 2
+        x: 4283
+        y: 2774
+        width: 951
+        height: 1264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_23
+      rect:
+        serializedVersion: 2
+        x: 5327
+        y: 2778
+        width: 951
+        height: 1264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_24
+      rect:
+        serializedVersion: 2
+        x: 6387
+        y: 2782
+        width: 951
+        height: 1260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1322
+        width: 951
+        height: 1260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_26
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1326
+        width: 951
+        height: 1259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_27
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1330
+        width: 947
+        height: 1256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_28
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 1334
+        width: 951
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllVehicles_animated_29
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 1338
+        width: 950
+        height: 1248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
