@@ -51,4 +51,8 @@ public class RacerMovement : MonoBehaviour {
         acceleration = Random.Range(0.00f, 0.01f);
     }
 
+    public void Racestart()
+    {
+        raceStart = true;
+    }
 }

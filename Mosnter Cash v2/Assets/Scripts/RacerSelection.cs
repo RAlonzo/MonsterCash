@@ -12,6 +12,10 @@ public class RacerSelection : MonoBehaviour {
     public Image[] holderImg;
     public Button[] zombieBttn;
     public Button[] holderBttn;
+
+    public Image[] unusedImg;
+    public Button[] unusedBttn;
+
     public int[] racerHolder;
     public bool[] holders;
 
